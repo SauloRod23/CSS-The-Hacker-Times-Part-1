@@ -3,11 +3,15 @@ header{
     text-align: center;
     margin: auto;
 }
-
-nav ul {
+.date{
+    text-align: left;
+}
+nav{
     list-style-type: none;
     text-align: center;
     margin: 0;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
 }
 
 nav li {
@@ -25,14 +29,19 @@ main img{
     margin: auto;
     width: 100%;
 }
-
+main p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #eee;
     border-color: #eee;
     font-family: Source Sans Pro;
 }
 
-header{
+h1{
     font-family: Abril FatFace;
 }
 
@@ -41,8 +50,32 @@ h2{
 }
 
 .newspapercontainer{
-    width: 700px;
-    border-radius: round;
-    background-color: white;
-    box-shadow: #ddd;
+    border-width: 700px;
+    margin: 3em auto;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 5px #ddd;
+    background: white;
+}
+
+h5{
+    color: #dd3232;
+    font-weight: bold;
+}
+
+.more-articles{
+    display: flex;
+}
+
+.more-articles section{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.more-articles section:last-child{
+    margin-right: 0;
 }
